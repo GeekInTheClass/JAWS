@@ -12,6 +12,8 @@
 		CEC13FA82015AB270048577C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC13FA62015AB270048577C /* Main.storyboard */; };
 		CEC13FAA2015AB270048577C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC13FA92015AB270048577C /* Assets.xcassets */; };
 		CEC13FAD2015AB270048577C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC13FAB2015AB270048577C /* LaunchScreen.storyboard */; };
+		CEC13FB52015AB4F0048577C /* HRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC13FB42015AB4F0048577C /* HRModel.swift */; };
+		CEC13FB72015AE270048577C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC13FB62015AE270048577C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CEC13FA92015AB270048577C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC13FAC2015AB270048577C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC13FAE2015AB270048577C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC13FB42015AB4F0048577C /* HRModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRModel.swift; sourceTree = "<group>"; };
+		CEC13FB62015AE270048577C /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 9; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				CEC13FA22015AB270048577C /* AppDelegate.swift */,
 				CEC13FA42015AB270048577C /* ViewController.swift */,
 				CEC13FA62015AB270048577C /* Main.storyboard */,
+				CEC13FB62015AE270048577C /* File.swift */,
 				CEC13FA92015AB270048577C /* Assets.xcassets */,
 				CEC13FAB2015AB270048577C /* LaunchScreen.storyboard */,
 				CEC13FAE2015AB270048577C /* Info.plist */,
+				CEC13FB42015AB4F0048577C /* HRModel.swift */,
 			);
 			path = HR;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC13FA52015AB270048577C /* ViewController.swift in Sources */,
+				CEC13FB72015AE270048577C /* File.swift in Sources */,
 				CEC13FA32015AB270048577C /* AppDelegate.swift in Sources */,
+				CEC13FB52015AB4F0048577C /* HRModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
