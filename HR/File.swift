@@ -28,7 +28,7 @@ class LineUpTableViewController : UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: nil)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         let team = self.modelHR.arrayList[indexPath.row]
         
         
